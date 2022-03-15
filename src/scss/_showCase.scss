@@ -1,0 +1,55 @@
+.showCase{
+    position: relative;
+    background-color:#001219;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .showCase__item{
+    
+      width:fit-content;
+      white-space: nowrap;
+      box-sizing: content-box;
+      margin: 2rem 0;
+      display: flex;
+      animation: move 20s linear infinite ;
+      .showCase__cart{
+        width:8rem;
+        height:8rem;
+        margin:1rem ;
+        
+       img{
+         width: 100%;
+         height:auto;
+       
+         
+       }
+       .showCase__img{
+         
+         background: #fff;
+         margin:0 1rem;
+         border-radius:5px;
+         &:hover{
+          background: rgb(211, 87, 16);
+         }
+       }
+       .showCase__img1{
+         
+         background: rgb(211, 87, 16);
+         margin:0 1rem;
+         border-radius:5px;
+         &:hover{
+          background: #fff;
+         }
+       }
+      }
+    }
+  }
+  
+  @keyframes move {
+    0%   {transform:translateX(100%)}
+    100%  {transform:translateX(-100%)}
+  }

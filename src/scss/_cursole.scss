@@ -1,0 +1,20 @@
+.carousel{
+    width:25vw;
+    height:100vh;
+  }
+  
+  // cards style in cursole.js
+  .swiper{
+    width:100%;
+    height:80%;
+    margin-top:2rem;
+  
+  }
+  .swiper-slide{
+    background: rgb(136, 49, 49);
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Moo+Lah+Lah&family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  font-family: 'Lato', sans-serif;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+  font-family:'sora',sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+section{
+  margin: 40px 0;
+}
+
+
+//navbar
+@import "./scss/navbar";
+
+//HOME
+@import "./scss/home";
+
+//TypeWriterText
+@import "./scss/typewritetext";
+
+// CoverVideo
+@import "./scss/covervideo";
+
+// About
+@import "./scss/about";
+
+//carousel
+@import "./scss/cursole";
+
+// Roadmap
+@import "./scss/roadMap";
+
+// DrawSvg
+@import "./scss/drawSvg";
+
+// ShoeCase
+@import "./scss/showCase";
+
+//Them
+@import "./scss/them";
+
+//Faq
+@import "./scss/faq";
+
+//Footer
+.footer{
+
+ a{
+   text-decoration: none;
+   color: #000;
+   text-transform: uppercase;
+   &:hover{
+     color: #c7ab0a;
+     border-bottom: 3px solid red;
+
+   }
+   &:focus{
+    color: #c7ab0a;
+    border-bottom: 3px solid red;
+    
+   }
+ }
+
+}
